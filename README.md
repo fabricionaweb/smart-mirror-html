@@ -1,6 +1,7 @@
 # What
 
-A personal web solution, just HTML, CSS and JS only. I'll try to make this as light as I can.
+A personal web solution, run-time ony (no build process, no webpack), just HTML, CSS and JS only.  
+I'll try to make this as light as I can.
 
 My plan here is to develop my own basic widgets to personal use.  
 If you know some basic web development, the code should be self-explanatory.
@@ -19,17 +20,16 @@ Just because I like.
 
 # Run
 
-1. `npm install && npm run build`
-1. Setup one static html server (like nginx) to run in the generated `build` folder
+1. Setup one static html server (like nginx)
 1. Open in the browser
 
 # Tech
 
-- Im developing the widgets with [react](https://reactjs.org/).
-- The JavaScript are [ES6 with modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#aside_—_.mjs_versus_.js).
-- The packages are management by [snowpack](https://www.snowpack.dev/).
+- Im developing the widgets with [preact](https://preactjs.com/) and [htm](https://github.com/developit/htm)
+- The JavaScript are [ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#aside_—_.mjs_versus_.js) only.
+- The packages are provided by [skypack](https://www.skypack.dev/).
 - _I will think about tests later._
-- My environments variable (to consume some API) will be stored in a simple JS module ([src/keys.mjs](./src/keys.mjs)) and **ignored from git**.
+- My environments variable (to consume some API) will be stored in a simple JS module ([src/keys.mjs](./src/keys.sample.mjs)) and **ignored from git**.
   - **⚠️ Never expose your application, its internal use only**
 - CSS3 and SVG
 

@@ -4,8 +4,7 @@
   "description": "A personal web solution for smart mirror dashboard",
   "main": "build/index.html",
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build"
+    "start": "servor --reload"
   },
   "repository": {
     "type": "git",
@@ -18,14 +17,8 @@
     "url": "https://github.com/fabricionaweb/smart-mirror-html/issues"
   },
   "homepage": "https://github.com/fabricionaweb/smart-mirror-html#readme",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@babel/preset-react": "^7.12.13",
-    "@snowpack/plugin-babel": "^2.1.6",
-    "babel-plugin-import-globals": "^2.0.0",
-    "snowpack": "^3.0.11"
+    "servor": "^4.0.2"
   }
 }
