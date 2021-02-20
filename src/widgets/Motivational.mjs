@@ -10,7 +10,7 @@ export const Motivational = ({ style = "" }) => {
 
   return html`
     <section class="fadeInDown" style=${style}>
-      <h1>${quote}</h1>
+      <h2>${quote}</h2>
     </section>
   `
 }
