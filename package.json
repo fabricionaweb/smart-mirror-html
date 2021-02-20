@@ -1,0 +1,24 @@
+{
+  "name": "smart-mirror-html",
+  "version": "1.0.0",
+  "description": "A personal web solution for smart mirror dashboard",
+  "main": "build/index.html",
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabricionaweb/smart-mirror-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabricionaweb/smart-mirror-html/issues"
+  },
+  "homepage": "https://github.com/fabricionaweb/smart-mirror-html#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "servor": "^4.0.2"
+  }
+}
