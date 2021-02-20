@@ -39,8 +39,8 @@ h2 {
   font-size: 4rem;
 }
 
-.center {
-  text-align: center;
+.text-right {
+  text-align: right;
 }
 
 /* grid */
