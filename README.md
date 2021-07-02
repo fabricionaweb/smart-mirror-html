@@ -20,7 +20,8 @@ Just because I like.
 
 # Run
 
-1. Setup one static html server (like nginx)
+1. Setup the static server to this project root
+  1. Server can be [nginx](https://www.nginx.com/) or others. For development I choose [servo](https://www.npmjs.com/package/servo)
 1. Open in the browser
 
 # Tech
