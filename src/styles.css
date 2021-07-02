@@ -53,10 +53,15 @@ h2 {
   align-items: center;
 }
 
+/* helpers */
+.transparent {
+  opacity: 0;
+}
+
 /* animations */
 .fadeInDown {
   opacity: 0;
-  animation: fadeInDown 1s ease-out 0.5s forwards;
+  animation: fadeInDown ease-out 0.5s forwards;
 }
 
 @keyframes fadeInDown {

@@ -8,8 +8,10 @@ export const Motivational = ({ style = "" }) => {
   const [data = []] = useFetch(endpoint)
   const { q: quote } = data[0] || {}
 
+  const className = quote ? "fadeInDown" : "transparent"
+
   return html`
-    <section class="fadeInDown" style=${style}>
+    <section class="${className}" style="${style}">
       <h2>${quote}</h2>
     </section>
   `
